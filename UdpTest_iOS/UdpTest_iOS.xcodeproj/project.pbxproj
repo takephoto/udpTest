@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00A0167C0D303C4E09EB1219 /* libPods-UdpTest_iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 48A283F4D7E20F28C785DAFC /* libPods-UdpTest_iOS.a */; };
+		DD3944371ED30F250032990F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3944361ED30F250032990F /* main.m */; };
+		DD39443A1ED30F250032990F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3944391ED30F250032990F /* AppDelegate.m */; };
+		DD39443D1ED30F250032990F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD39443C1ED30F250032990F /* ViewController.m */; };
+		DD3944401ED30F250032990F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD39443E1ED30F250032990F /* Main.storyboard */; };
+		DD3944421ED30F250032990F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD3944411ED30F250032990F /* Assets.xcassets */; };
+		DD3944451ED30F250032990F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD3944431ED30F250032990F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DE85578E20A7056F046DD76 /* Pods-UdpTest_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UdpTest_iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-UdpTest_iOS/Pods-UdpTest_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		47037B4A7A58ECA3D6B9A76A /* Pods-UdpTest_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UdpTest_iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UdpTest_iOS/Pods-UdpTest_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		48A283F4D7E20F28C785DAFC /* libPods-UdpTest_iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UdpTest_iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3944321ED30F250032990F /* UdpTest_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UdpTest_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD3944361ED30F250032990F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD3944381ED30F250032990F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD3944391ED30F250032990F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD39443B1ED30F250032990F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD39443C1ED30F250032990F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD39443F1ED30F250032990F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD3944411ED30F250032990F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD3944441ED30F250032990F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD3944461ED30F250032990F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD39442F1ED30F250032990F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00A0167C0D303C4E09EB1219 /* libPods-UdpTest_iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15342A68E86DD5449480ADBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47037B4A7A58ECA3D6B9A76A /* Pods-UdpTest_iOS.debug.xcconfig */,
+				1DE85578E20A7056F046DD76 /* Pods-UdpTest_iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		94734D8AD332B739D2746D33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48A283F4D7E20F28C785DAFC /* libPods-UdpTest_iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD3944291ED30F250032990F = {
+			isa = PBXGroup;
+			children = (
+				DD3944341ED30F250032990F /* UdpTest_iOS */,
+				DD3944331ED30F250032990F /* Products */,
+				15342A68E86DD5449480ADBF /* Pods */,
+				94734D8AD332B739D2746D33 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DD3944331ED30F250032990F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD3944321ED30F250032990F /* UdpTest_iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD3944341ED30F250032990F /* UdpTest_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DD3944381ED30F250032990F /* AppDelegate.h */,
+				DD3944391ED30F250032990F /* AppDelegate.m */,
+				DD39443B1ED30F250032990F /* ViewController.h */,
+				DD39443C1ED30F250032990F /* ViewController.m */,
+				DD39443E1ED30F250032990F /* Main.storyboard */,
+				DD3944411ED30F250032990F /* Assets.xcassets */,
+				DD3944431ED30F250032990F /* LaunchScreen.storyboard */,
+				DD3944461ED30F250032990F /* Info.plist */,
+				DD3944351ED30F250032990F /* Supporting Files */,
+			);
+			path = UdpTest_iOS;
+			sourceTree = "<group>";
+		};
+		DD3944351ED30F250032990F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD3944361ED30F250032990F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD3944311ED30F250032990F /* UdpTest_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD3944491ED30F250032990F /* Build configuration list for PBXNativeTarget "UdpTest_iOS" */;
+			buildPhases = (
+				1591D548E6AFA039FB82EFB7 /* [CP] Check Pods Manifest.lock */,
+				DD39442E1ED30F250032990F /* Sources */,
+				DD39442F1ED30F250032990F /* Frameworks */,
+				DD3944301ED30F250032990F /* Resources */,
+				143824ECA8941EF62FAA1A3B /* [CP] Embed Pods Frameworks */,
+				3F3C3D0195C7658C2A502850 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UdpTest_iOS;
+			productName = UdpTest_iOS;
+			productReference = DD3944321ED30F250032990F /* UdpTest_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD39442A1ED30F250032990F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "杨洋";
+				TargetAttributes = {
+					DD3944311ED30F250032990F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3L5QHR7TTG;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DD39442D1ED30F250032990F /* Build configuration list for PBXProject "UdpTest_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD3944291ED30F250032990F;
+			productRefGroup = DD3944331ED30F250032990F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD3944311ED30F250032990F /* UdpTest_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD3944301ED30F250032990F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD3944451ED30F250032990F /* LaunchScreen.storyboard in Resources */,
+				DD3944421ED30F250032990F /* Assets.xcassets in Resources */,
+				DD3944401ED30F250032990F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		143824ECA8941EF62FAA1A3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UdpTest_iOS/Pods-UdpTest_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1591D548E6AFA039FB82EFB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3F3C3D0195C7658C2A502850 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UdpTest_iOS/Pods-UdpTest_iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD39442E1ED30F250032990F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD39443D1ED30F250032990F /* ViewController.m in Sources */,
+				DD39443A1ED30F250032990F /* AppDelegate.m in Sources */,
+				DD3944371ED30F250032990F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD39443E1ED30F250032990F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD39443F1ED30F250032990F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD3944431ED30F250032990F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD3944441ED30F250032990F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD3944471ED30F250032990F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DD3944481ED30F250032990F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD39444A1ED30F250032990F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47037B4A7A58ECA3D6B9A76A /* Pods-UdpTest_iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3L5QHR7TTG;
+				INFOPLIST_FILE = UdpTest_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yang.test.UdpTest-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD39444B1ED30F250032990F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DE85578E20A7056F046DD76 /* Pods-UdpTest_iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3L5QHR7TTG;
+				INFOPLIST_FILE = UdpTest_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yang.test.UdpTest-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD39442D1ED30F250032990F /* Build configuration list for PBXProject "UdpTest_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD3944471ED30F250032990F /* Debug */,
+				DD3944481ED30F250032990F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD3944491ED30F250032990F /* Build configuration list for PBXNativeTarget "UdpTest_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD39444A1ED30F250032990F /* Debug */,
+				DD39444B1ED30F250032990F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD39442A1ED30F250032990F /* Project object */;
+}
